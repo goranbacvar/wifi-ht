@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:wifiadmin
+  jpa:
+    show-sql: true
+
+logging:
+  level:
+    com.wifiadmin: DEBUG
+    org.springframework.ws: TRACE

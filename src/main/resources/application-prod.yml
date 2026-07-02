@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/wifiadmin
+    driver-class-name: org.postgresql.Driver
+    username: ${DB_USERNAME:wifiadmin}
+    password: ${DB_PASSWORD:changeme}
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  h2:
+    console:
+      enabled: false
+
+logging:
+  level:
+    com.wifiadmin: INFO
+
+server:
+  port: 8081

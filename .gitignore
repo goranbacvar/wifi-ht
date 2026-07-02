@@ -3,3 +3,21 @@ package-lock.json
 .env
 *.log
 scripts/
+
+# Maven / Java
+target/
+*.class
+*.jar
+*.war
+*.iml
+.idea/
+.settings/
+.project
+.classpath
+
+# DB
+data/
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
